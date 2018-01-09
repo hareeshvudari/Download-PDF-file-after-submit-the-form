@@ -4,7 +4,7 @@
 ###### Let's start
 <hr>
 ** create a html file and add this code**
-```
+
 <form action="downloadFile.php" method="post">
                    
     <div class="form-group col-md-6">
@@ -25,7 +25,7 @@
     </div> 
     
   </form>
-```
+
 <hr>
 
 ** create downloadFile.php file , add below code **
