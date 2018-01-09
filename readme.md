@@ -12,7 +12,10 @@
 
 **create a html file and add this code**
 
-'''<form action="downloadFile.php" method="post">                   
+'''
+
+<form action="downloadFile.php" method="post">            
+
     <div class="form-group col-md-6">
       <label for="name1">Full Name </label>
       <input type="text" class="form-control" name="fullname" id="name1" required>
@@ -28,7 +31,9 @@
     <div class="col-md-12">
                 <input type="submit" class="btn button_animation btn-lg button-flats-seperate" value="Download Broucher">
     </div>     
-  </form>'''
+  </form>
+  
+  '''
 
 
 <hr>
