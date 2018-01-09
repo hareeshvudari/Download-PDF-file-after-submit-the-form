@@ -3,10 +3,16 @@
 ###### The smallest heading -->
 ###### Let's start
 <hr>
+
+# Download this file with below link and run in local server
+
+ ###### https://github.com/hareeshvudari/Download-PDF-file-after-submit-the-form/archive/master.zip
+
+<hr>
+
 **create a html file and add this code**
-'
-<form action="downloadFile.php" method="post">
-                   
+
+'''<form action="downloadFile.php" method="post">                   
     <div class="form-group col-md-6">
       <label for="name1">Full Name </label>
       <input type="text" class="form-control" name="fullname" id="name1" required>
@@ -20,15 +26,16 @@
             <input type="email" class="form-control" name="emailId" id="email" required>
     </div>
     <div class="col-md-12">
-            <!-- <button type="button" class="btn button_animation btn-lg button-flats-seperate"><a href="#">Download Broucher</a> -->
                 <input type="submit" class="btn button_animation btn-lg button-flats-seperate" value="Download Broucher">
-    </div> 
-    
-  </form>
-'
+    </div>     
+  </form>'''
+
+
 <hr>
 
-** create downloadFile.php file , add below code **
+
+
+**create downloadFile.php file , add below code**
 
 ```
 <?php
@@ -45,4 +52,4 @@ readfile('http://www.wtastudios.com/WTA_STUDIOS_Profile_2017.pdf');
 
 ```
 
-**_Run this files in Local server, (XAMPP or WAMPP etc. ) _ **
+**_Run this files in Local server, (XAMPP or WAMPP etc. )_**
